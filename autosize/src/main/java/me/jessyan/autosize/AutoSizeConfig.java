@@ -328,6 +328,10 @@ public final class AutoSizeConfig {
         mActivityLifecycleCallbacks.setAutoAdaptStrategy(new WrapperAutoAdaptStrategy(autoAdaptStrategy));
         return this;
     }
+    
+    public AutoAdaptStrategy getAutoAdaptStrategy(){
+        return mActivityLifecycleCallbacks.getAutoAdaptStrategy();
+    }
 
     /**
      * 设置屏幕适配监听器
