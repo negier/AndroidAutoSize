@@ -113,4 +113,8 @@ public class ActivityLifecycleCallbacksImpl implements Application.ActivityLifec
             mFragmentLifecycleCallbacks.setAutoAdaptStrategy(autoAdaptStrategy);
         }
     }
+    
+    public AutoAdaptStrategy getAutoAdaptStrategy(){
+        return mAutoAdaptStrategy;
+    }
 }
